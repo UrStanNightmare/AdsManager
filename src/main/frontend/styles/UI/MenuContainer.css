@@ -1,0 +1,9 @@
+.MenuContainer{
+    display: block;
+    order: 0;
+
+    margin-top: 0;
+    margin-bottom: 5px;
+
+    border: 2px solid black;
+}

@@ -1,0 +1,61 @@
+.EditCatPanel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+
+    order: 2;
+    flex-grow: 7;
+
+    border: 2px solid black;
+
+}
+
+.EditCatLabelBlock{
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+
+    order: 0;
+    flex-grow: 2;
+
+    border-bottom: 2px solid black;
+}
+
+.EditCatFormBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    row-gap: 2vh;
+
+    max-height: 82vh;
+
+    order: 1;
+    flex-grow: 1000;
+}
+
+.EditCatForm{
+    margin-left: 4vw;
+    margin-top: 2vh;
+    margin-right: 4vw;
+}
+
+.AlertCatBlock{
+    display: block;
+
+    order: 2;
+    flex-grow: 2;
+}
+
+.EditCatButtonsBlock{
+    display: flex;
+
+    flex-direction: row;
+    justify-content: space-between;
+
+    order: 3;
+    flex-grow: 2;
+}
