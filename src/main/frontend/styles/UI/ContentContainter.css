@@ -1,0 +1,12 @@
+.ContentContainer{
+    /*height: 100%;*/
+    display: flex;
+
+    order: 1;
+    flex-grow: 9;
+
+    flex-direction: row;
+    align-items: stretch;
+    gap: 5px;
+
+}
